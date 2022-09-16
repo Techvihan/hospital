@@ -12,6 +12,7 @@ module.exports = {
         'h1': '0 0 3px rgba(0, 0, 0, .8), 0 0 5px rgba(0, 0, 0, .9)',
       },
       backgroundImage: {
+        'hero-hospital': "url('./hospital.jpg')",
         'hero-home': "url('./home.jpg')"
       }
     },
