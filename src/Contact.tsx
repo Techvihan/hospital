@@ -23,7 +23,7 @@ const Contact: FC<Props> = (props) => {
             <Input placeholder="Enter your name" type="text"></Input>
             <Input placeholder="Enter email address" type="email"></Input>
             <Input placeholder="Enter the message" type="text"></Input>
-            <button className="bg-yellow-500 px-2 py-1 text-white rounded-lg hover:bg-green-500 text-2xl relative -right-80">
+            <button className="bg-yellow-500 px-2 py-1 text-white rounded-lg hover:bg-green-500 text-2xl ml-80">
               Save
             </button>
           </div>
