@@ -13,7 +13,8 @@ module.exports = {
       },
       backgroundImage: {
         'hero-hospital': "url('/hospital.jpg')",
-        'hero-home': "url('/home.jpg')"
+        'hero-home': "url('/home.jpg')",
+        'hero-family': "url('/family.jpg')"
       }
     },
   },
