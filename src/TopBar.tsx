@@ -8,7 +8,7 @@ const TopBar = () => {
   return (
     <div>
       {/* desktop view--------------- */}
-      <div className="bg-black px-8 py-1 shadow-lg shadow-gray-600 h-20">
+      <div className="bg-black px-8 py-1 shadow-xl shadow-gray-600 h-20">
         <div className="flex  justify-center ">
           <img
             className="sm:w-20 w-16 object-cover"

@@ -8,10 +8,11 @@ const Contact: FC<Props> = (props) => {
         <div className="space-y-8">
           <h1 className="text-5xl font-extrabold">Contact Us</h1>
           <p className="text-2xl font-bold">
-            Our mailing address is:
-            <br /> 152A Charlotte Street,
-            <br /> Peterborough ON <br />
-            Phone: 705-742-3221
+            Email address is:
+            <br /> abhishek13arya@gmail.com
+            <br />
+            Website: TechVihan.info <br />
+            Phone: 8439488558
           </p>
         </div>
         <div className="space-y-8">
@@ -23,9 +24,11 @@ const Contact: FC<Props> = (props) => {
             <Input placeholder="Enter your name" type="text"></Input>
             <Input placeholder="Enter email address" type="email"></Input>
             <Input placeholder="Enter the message" type="text"></Input>
-            <button className="bg-yellow-500 px-2 py-1 text-white rounded-lg hover:bg-green-500 text-2xl ml-80">
-              Save
-            </button>
+            <div className="flex justify-center">
+              <button className="bg-yellow-500 px-2 py-1 text-white rounded-lg hover:bg-green-500 text-2xl">
+                Save
+              </button>
+            </div>
           </div>
         </div>
       </div>
