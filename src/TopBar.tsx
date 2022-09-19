@@ -49,7 +49,7 @@ const TopBar = () => {
               <div className="block sm:block md:block lg:hidden py-10">
                 <div onClick={hideNavigation}>
                   <img
-                    className="w-12 h-12 absolute right-8 -top-16 rounded-full  bg-white"
+                    className="w-12 h-12 absolute right-2 -top-16 rounded-full  bg-white"
                     src="https://img.icons8.com/ios/344/xbox-x.png"
                   />
                 </div>

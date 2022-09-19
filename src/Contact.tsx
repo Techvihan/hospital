@@ -20,7 +20,7 @@ const Contact: FC<Props> = (props) => {
             Great vision without great people is <br />
             irrelevant. Let's work together.
           </p>
-          <div className="space-y-6 bg-gray-700 p-4 rounded-lg">
+          <div className="space-y-6 bg-gray-700 flex flex-col justify-center items-center rounded-lg py-8">
             <Input placeholder="Enter your name" type="text"></Input>
             <Input placeholder="Enter email address" type="email"></Input>
             <Input placeholder="Enter the message" type="text"></Input>

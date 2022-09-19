@@ -1,6 +1,6 @@
-import { memo } from "react";
-
-const Input = (props: any) => {
+import { FC, InputHTMLAttributes, memo } from "react";
+type Props = InputHTMLAttributes<HTMLInputElement>;
+const Input: FC<Props> = (props: any) => {
   return (
     <div>
       <input
